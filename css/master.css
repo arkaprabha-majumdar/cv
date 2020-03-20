@@ -1,19 +1,41 @@
-body{
-  background-color: #F3D1F4
+body {
+  background-color: #a1e6e3;
+  margin: 0;
+  text-align: center;
+  font-family: 'Indie Flower';
+}
+div {
+  background-color: #216353;
 }
 
 h1 {
-  color: #F5FCC1;
+  color: #edffea;
+  font-family: 'Gloria Hallelujah';
 }
 
 h3 {
-  color: #F5FCC1;
+  color: #dcedc1;
 }
 
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #98D6EA;
+  border-color: #F8B400;
   border-width: 5px;
   width: 5%;
+}
+
+.pro {
+  font-size: 140%;
+  color: Red;
+}
+
+.top-cloud {
+  position: absolute;
+}
+
+.bottom-cloud {
+  display: block;
+  position: relative;
+  bottom: 20;
 }
